@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #fafafa;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.insta-logo {
+  width: 80px;
+}
+
+.phone {
+  width: 300px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-box {
+  background: white;
+  border: 1px solid #dbdbdb;
+  width: 350px;
+  padding: 25px;
+  text-align: center;
+}
+
+.title {
+  font-family: cursive;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 9px;
+  margin-top: 5px;
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+}
+
+button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 9px;
+  background: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.or {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  color: gray;
+  font-size: 12px;
+}
+
+.or span {
+  flex: 1;
+  height: 1px;
+  background: #dbdbdb;
+}
+
+.or p {
+  margin: 0 10px;
+}
+
+.facebook {
+  color: #385185;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.forgot {
+  display: block;
+  margin-top: 12px;
+  font-size: 12px;
+  color: #00376b;
+  text-decoration: none;
+}
+
+.signup-box {
+  background: white;
+  border: 1px solid #dbdbdb;
+  width: 350px;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.signup-box a {
+  color: #0095f6;
+  text-decoration: none;
+  font-weight: bold;
+}
