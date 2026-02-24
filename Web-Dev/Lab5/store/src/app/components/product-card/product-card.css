@@ -1,0 +1,42 @@
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #e91e63;
+  margin: 5px 0;
+}
+
+.rating {
+  margin-bottom: 10px;
+}
+
+.buttons {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+button {
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
