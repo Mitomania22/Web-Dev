@@ -1,0 +1,6 @@
+numbers=list(map(int, input().split()))
+counter=0
+for i in range(len(numbers)):
+    if numbers[i]>0:
+        counter=counter+1
+print(counter)
